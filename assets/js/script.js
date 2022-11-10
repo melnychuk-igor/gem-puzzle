@@ -1,8 +1,3 @@
-if (localStorage.getItem('message') !== 'send') {
-  alert('Прошу не скрывать свое имя. Буду благодарен за это');
-}
-localStorage.setItem('message', 'send');
-
 document.body.innerHTML = `
         <div class="gem-puzzle">
             <div class="gem-puzzle__top">
